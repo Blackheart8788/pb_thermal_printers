@@ -6,10 +6,22 @@
 
 #import "GeneratedPluginRegistrant.h"
 
+#if __has_include(<device_info_plus/FPPDeviceInfoPlusPlugin.h>)
+#import <device_info_plus/FPPDeviceInfoPlusPlugin.h>
+#else
+@import device_info_plus;
+#endif
+
 #if __has_include(<path_provider_foundation/PathProviderPlugin.h>)
 #import <path_provider_foundation/PathProviderPlugin.h>
 #else
 @import path_provider_foundation;
+#endif
+
+#if __has_include(<pdfx/PdfxPlugin.h>)
+#import <pdfx/PdfxPlugin.h>
+#else
+@import pdfx;
 #endif
 
 #if __has_include(<print_bluetooth_thermal/PrintBluetoothThermalPlugin.h>)
@@ -21,7 +33,9 @@
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+  [FPPDeviceInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FPPDeviceInfoPlusPlugin"]];
   [PathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"PathProviderPlugin"]];
+  [PdfxPlugin registerWithRegistrar:[registry registrarForPlugin:@"PdfxPlugin"]];
   [PrintBluetoothThermalPlugin registerWithRegistrar:[registry registrarForPlugin:@"PrintBluetoothThermalPlugin"]];
 }
 

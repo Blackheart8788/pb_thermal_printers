@@ -1,6 +1,6 @@
-# print_bluetooth_thermal
+# pb_thermal_printers
 
-## Package to print tickets on 58mm or 80mm thermal printers on Android or IOS.
+## Package to print tickets or pdfs on 58mm or 80mm thermal printers on Android or IOS.
 
 This package emerged as an alternative to the current ones that use the location permission and Google Play
 blocks apps that don't explain what to use location permission for.
@@ -9,7 +9,7 @@ blocks apps that don't explain what to use location permission for.
 
 ## Getting Started
 
-* Import the package  [print_bluetooth_thermal](https://pub.dev/packages/print_bluetooth_thermal).
+* Import the package  [pb_thermal_printers](https://pub.dev/packages/pb_thermal_printers).
 
 * If you want to print images, qr code, barcode use the package [esc_pos_utils_plus](https://pub.dev/packages/esc_pos_utils_plus).
 
@@ -23,7 +23,7 @@ blocks apps that don't explain what to use location permission for.
 1. Import the package
 
 ```dart
-import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
+import 'package:pb_thermal_printers/pb_thermal_printers.dart';
 ```
 
 
@@ -220,8 +220,8 @@ Future<List<int>> testTicket() async {
 # Ticket printed with various sizes
 ![Print sizes](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/size.jpeg)
 # Ticket printed with various forms
-![Use package print_bluetooth_thermal 58 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print.jpeg)
-![Use package print_bluetooth_thermal 80 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print80mm.jpg)
+![Use package pb_thermal_printers 58 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print.jpeg)
+![Use package pb_thermal_printers 80 mm](https://github.com/andresperezmelo/print_bluetooth_termal/blob/main/print80mm.jpg)
 
 
 # Built with 🛠️
