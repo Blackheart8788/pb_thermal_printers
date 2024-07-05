@@ -256,6 +256,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
+  pb_thermal_printers:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.1.0"
   pdfx:
     dependency: "direct main"
     description:
@@ -296,13 +303,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
-  print_bluetooth_thermal:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.1.0"
   sky_engine:
     dependency: transitive
     description: flutter

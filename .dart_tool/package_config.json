@@ -200,13 +200,13 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "print_bluetooth_thermal",
+      "name": "pb_thermal_printers",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-07-05T17:42:15.551728Z",
+  "generated": "2024-07-05T19:03:31.838873Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }

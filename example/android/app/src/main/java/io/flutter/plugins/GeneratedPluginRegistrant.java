@@ -26,14 +26,14 @@ public final class GeneratedPluginRegistrant {
       Log.e(TAG, "Error registering plugin path_provider_android, io.flutter.plugins.pathprovider.PathProviderPlugin", e);
     }
     try {
+      flutterEngine.getPlugins().add(new app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin pb_thermal_printers, app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin", e);
+    }
+    try {
       flutterEngine.getPlugins().add(new io.scer.pdfx.PdfxPlugin());
     } catch (Exception e) {
       Log.e(TAG, "Error registering plugin pdfx, io.scer.pdfx.PdfxPlugin", e);
-    }
-    try {
-      flutterEngine.getPlugins().add(new app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin());
-    } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin print_bluetooth_thermal, app.web.groons.print_bluetooth_thermal.PrintBluetoothThermalPlugin", e);
     }
   }
 }

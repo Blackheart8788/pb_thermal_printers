@@ -4,10 +4,10 @@ import 'package:esc_pos_utils_plus/esc_pos_utils_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:pdfx/pdfx.dart';
-import 'package:print_bluetooth_thermal/post_code.dart';
-import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
+import 'package:pb_thermal_printers/post_code.dart';
+import 'package:pb_thermal_printers/print_bluetooth_thermal.dart';
 import 'package:image/image.dart' as img;
-import 'package:print_bluetooth_thermal/print_bluetooth_thermal_windows.dart';
+import 'package:pb_thermal_printers/print_bluetooth_thermal_windows.dart';
 
 void main() {
   runApp(MyApp());
